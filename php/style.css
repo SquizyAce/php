@@ -1,0 +1,54 @@
+body{
+	background-color: #D9D9D9;
+}
+
+.main ul, /* убираем маркеры */
+.main ol{
+	list-style-type: none;
+}
+
+.main button, .create-main button
+{
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 5px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.topic
+{
+	padding: 10px;
+}
+
+.main .comment
+{
+	padding: 10px;
+	border: 4px double black;
+}
+
+.main li
+{
+	padding: 5px 5px;
+}
+
+.main
+		{
+	    display: block;
+		margin-left: 10%;
+		margin-right: 10%;
+		background-color: white;
+		}
+
+.create-main
+{
+	margin-top: 10px;
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	text-align: center;
+}
